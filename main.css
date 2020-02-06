@@ -8,7 +8,7 @@
   --heroDisplayColor: #F5F7F6;
 }
 .container{
-  max-width: 1260px;
+  max-width: 1160px;
   padding: 20px;
 }
 .header{
@@ -120,6 +120,9 @@
 
 }
 
+.section2 .container .row2 .col{
+  margin-bottom: 10px;
+}
 .section2 .container .row2 .grid-item{
   display: flex;
   flex-direction: column;
@@ -149,9 +152,55 @@
   text-align: center;
 }
 
+/* Section Three CSS is below */
 
+.section3{
+  background: var(--header-color);
+}
 
+.section3 .container{
+  padding: 50px 0;
+  padding: 20px;
+}
 
+.section3 .container .section3-top{
+  text-align: center;
+  color: var(--lightblue);
+}
 
+.section3 .container .section3-top .sub-title{
+  font-size: 14px;
+}
 
+.section3 .container .section3-top .title{
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.section3 .container .row{
+  margin: 0;
+}
+
+.section3 .container .row .col{
+  margin-bottom: 10px;
+}
+
+.section3 .container .row .col .grid-item{
+  background: white;
+  padding: 20px;
+}
+
+.section3 .container .row .col .grid-item .icon{
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+
+.section3 .container .row .col .grid-item .grid-item-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section3 .container .row .col .grid-item .grid-item-text{
+  font-size: 14px;
+}
 
