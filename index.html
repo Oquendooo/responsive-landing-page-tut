@@ -3,49 +3,70 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
+    <style>
+      @media (max-width: 725px) { 
+        .header .container .header-links{
+          display: none !important;
+        }
+        .header .fa{
+          display: flex !important;
+        }
+      }
+      @media (min-width: 725px) { 
+
+        .header .fa{
+          display: none !important;
+        }
+      }
+    </style>
   </head>
   <body>
 
     <!-- Website Header below -->
-    <div class="header">
-      <div class="container">
-        <div class="logo">Learn Pro</div>
-        <div class="header-links">
-          <div class="header-link">
+    <div class="header" style="display: flex; flex-direction: row; justify-content: center; align-items: center; background: #297FB8; color: #CEF0FF; height: 50px;">
+      <div class="container" style="max-width: 1160px; padding: 20px; display: flex; flex-direction: row; justify-content: space-between;">
+        <div class="logo" style="display:flex; justify-content: center; align-items: center;">Learn Pro</div>
+        <div class="header-links" style="display: flex; flex-direction: row;">
+          <div class="header-link ml-4 mr-4">
             Home
           </div>
-          <div class="header-link">
+          <div class="header-link ml-4 mr-4">
             About Me
           </div>
-          <div class="header-link">
+          <div class="header-link ml-4 mr-4">
             Courses
           </div>
-          <div class="header-link">
+          <div class="header-link ml-4 mr-4">
             Pricing
           </div>
-          <div class="header-link">
+          <div class="header-link ml-4 mr-4">
             Blogs
           </div>
-          <div class="header-link">
+          <div class="header-link ml-4 mr-4">
             Contact Us
           </div>
         </div>
+        <i class="fa fa-bars p-4" aria-hidden="true" style="font-size: 20px; cursor: pointer;"></i>
+
       </div>
     </div>
 
     <!-- Section One below -->
-    <div class="section1">
+    <div class="section1" style="display: flex; flex-direction: row; background: #F5F7F6; min-height: 500px;">
       <div class="container">
-        <div class="row">
+        <div class="row" style="display: flex; flex-direction: row; justify-content: center; align-items: center; min-height: 500px;">
+
           <div class="left-side col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <h1 class="section-title">
               Learning is Synthesizing seemingly divergent ideas and data
             </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
           </div>
+
           <div class="right-side col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img src="researching.svg" alt="">
+            <img src="researching.svg" alt="" style="max-height: 325px; width: 100%;">
           </div>
+
         </div>
       </div>
     </div>
@@ -53,11 +74,13 @@
     <!-- Section Two below -->
     <div class="section2">
       <div class="container">
-        <div class="row1 row">
-          <div class="left-side col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img src="https://images.pexels.com/photos/2574616/pexels-photo-2574616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+        <div class="row1 row pt-5 pb-5" >
+
+          <div class="left-side col-sm-12 col-md-6 col-lg-6 col-xl-6" style="display: flex; justify-content: center;">
+            <img src="https://images.pexels.com/photos/2574616/pexels-photo-2574616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" style="max-width:400px; height: 500px; width: 100%;">
           </div>
-          <div class="right-side col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+          <div class="right-side col-sm-12 col-md-6 col-lg-6 col-xl-6" style="display: flex; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
             <h1 class="section-title">Start Learning & Viewing by Choosing Your Option</h1>
             <p class="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -65,73 +88,79 @@
             <p class="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div class="btn">See More</div>
+            <div class="btn" style="background: #297FB8; color: #CEF0FF;">See More</div>
           </div>
+
         </div>
 
-        <div class="row2 row">
-          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <div class="grid-item">
-              <i class="fa fa-book" aria-hidden="true"></i>
-              <div class="grid-item-title">College Information</div>
-              <div class="grid-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        <div class="row2 row mb-5">
+          
+          <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="grid-item p-4" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: #F2F2F2;">
+              <i class="fa fa-book mb-3" aria-hidden="true" style="font-size: 35px;"></i>
+              <div class="grid-item-title mb-3">College Information</div>
+              <div class="grid-item-text" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <div class="grid-item grid-item-alt">
-              <i class="fa fa-book" aria-hidden="true"></i>
-              <div class="grid-item-title">College Information</div>
-              <div class="grid-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+          <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="grid-item grid-item-alt p-4" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: #297FB8; color: #CEF0FF;">
+              <i class="fa fa-book mb-3" aria-hidden="true" style="font-size: 35px;"></i>
+              <div class="grid-item-title mb-3">College Information</div>
+              <div class="grid-item-text" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-            <div class="grid-item">
-              <i class="fa fa-book" aria-hidden="true"></i>
-              <div class="grid-item-title">College Information</div>
-              <div class="grid-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+          <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="grid-item p-4" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: #F2F2F2;">
+              <i class="fa fa-book mb-3" aria-hidden="true" style="font-size: 35px;"></i>
+              <div class="grid-item-title mb-3">College Information</div>
+              <div class="grid-item-text" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             </div>
           </div>
+
         </div>
 
       </div>
     </div>
 
     <!-- Section Three below -->
-    <div class="section3">
-      <div class="container">
-        <div class="section3-top">
-          <div class="sub-title">What You Want</div>
-          <div class="title">Choose Our Courses</div>
+    <div class="section3" style="background: #297FB8;">
+      <div class="container pt-5 pb-5 pl-3 pr-3">
+        <div class="section3-top pb-2" style=" text-align: center; color: #CEF0FF">
+          <div class="sub-title" style="font-size: 14px;">What You Want</div>
+          <div class="title" style="font-size: 22px; margin-bottom: 25px;">Choose Our Courses</div>
         </div>
 
 
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="grid-item">
-              <div class="icon">Icon</div>
-              <div class="grid-item-title">Business</div>
-              <div class="grid-item-text">Dept Of Business</div>
+        <div class="row pb-3" >
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3" style="margin-bottom: 10px;">
+            <div class="grid-item" style="background: white; padding: 20px;">
+              <i class="icon fa fa-university" aria-hidden="true" style="font-size: 36px; margin-bottom: 2px;"></i>
+
+              <div class="grid-item-title" style="font-size: 20px; font-weight: bold;">Business</div>
+              <div class="grid-item-text" style="font-size: 14px;">Dept Of Business</div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="grid-item">
-              <div class="icon">Icon</div>
-              <div class="grid-item-title">Business</div>
-              <div class="grid-item-text">Dept Of Business</div>
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item" style="background: white; padding: 20px;">
+              <i class="icon fa fa-university" aria-hidden="true" style="font-size: 36px; margin-bottom: 2px;"></i>
+              <div class="grid-item-title" style="font-size: 20px; font-weight: bold;">Business</div>
+              <div class="grid-item-text" style="font-size: 14px;">Dept Of Business</div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="grid-item">
-              <div class="icon">Icon</div>
-              <div class="grid-item-title">Business</div>
-              <div class="grid-item-text">Dept Of Business</div>
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item" style="background: white; padding: 20px;">
+              <i class="icon fa fa-university" aria-hidden="true" style="font-size: 36px; margin-bottom: 2px;"></i>
+              <div class="grid-item-title" style="font-size: 20px; font-weight: bold;">Business</div>
+              <div class="grid-item-text" style="font-size: 14px;">Dept Of Business</div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-            <div class="grid-item">
-              <div class="icon">Icon</div>
-              <div class="grid-item-title">Business</div>
-              <div class="grid-item-text">Dept Of Business</div>
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item" style="background: white; padding: 20px;">
+              <i class="icon fa fa-university" aria-hidden="true" style="font-size: 36px; margin-bottom: 2px;"></i>
+              <div class="grid-item-title" style="font-size: 20px; font-weight: bold;">Business</div>
+              <div class="grid-item-text" style="font-size: 14px;">Dept Of Business</div>
             </div>
           </div>
         </div>
@@ -139,24 +168,253 @@
     </div>
 
     <!-- Section four below -->
-    <div class="section4">
-      
+    <div class="section4" style="background: #F2F2F2;">
+      <div class="container pb-5">
+        <div class="section4-top mt-4 mb-5" style="text-align: center;">
+          <div class="sub-title" style="color: #297FB8;">Are You Ready</div>
+          <div class="title" style="color: #0C1213; font-size: 25px; font-weight: bold;">Meet Our Teachers</div>
+        </div>
+        <div class="row">
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="grid-item p-3 mb-4" style="background: white; border-radius: 4px;">
+              <div class="grid-item-top mb-2" style="display: flex;">
+                  <img class="teacher-icon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="" style="width: 65px; border-radius: 50%;">
+                  <div class="teacher-info ml-2" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="teacher-name">Aaron Oquendo</div>
+                    <div class="location">New York</div>
+                  </div>
+              </div>
+              <div class="grid-item-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="grid-item p-3 mb-4" style="background: white; border-radius: 4px;">
+              <div class="grid-item-top mb-2" style="display: flex;">
+                  <img class="teacher-icon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="" style="width: 65px; border-radius: 50%;">
+                  <div class="teacher-info ml-2" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="teacher-name">Aaron Oquendo</div>
+                    <div class="location">New York</div>
+                  </div>
+              </div>
+              <div class="grid-item-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="grid-item p-3 mb-4" style="background: white; border-radius: 4px;">
+              <div class="grid-item-top mb-2" style="display: flex;">
+                  <img class="teacher-icon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="" style="width: 65px; border-radius: 50%;">
+                  <div class="teacher-info ml-2" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="teacher-name">Aaron Oquendo</div>
+                    <div class="location">New York</div>
+                  </div>
+              </div>
+              <div class="grid-item-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="grid-item p-3 mb-4" style="background: white; border-radius: 4px;">
+              <div class="grid-item-top mb-2" style="display: flex;">
+                  <img class="teacher-icon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="" style="width: 65px; border-radius: 50%;">
+                  <div class="teacher-info ml-2" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="teacher-name">Aaron Oquendo</div>
+                    <div class="location">New York</div>
+                  </div>
+              </div>
+              <div class="grid-item-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="grid-item grid-item-alt p-3 mb-4" style="background: white; border-radius: 4px; border: 2px solid #CEF0FF; box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);">
+              <div class="grid-item-top mb-2" style="display: flex;">
+                  <img class="teacher-icon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="" style="width: 65px; border-radius: 50%;">
+                  <div class="teacher-info ml-2" style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="teacher-name">Aaron Oquendo</div>
+                    <div class="location">New York</div>
+                  </div>
+              </div>
+              <div class="grid-item-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="grid-item p-3 mb-4" style="background: white; border-radius: 4px;">
+              <div class="grid-item-top mb-2" style="display: flex;">
+                <img class="teacher-icon" src="https://pbs.twimg.com/profile_images/883458234685587456/KtCFjlD4.jpg" alt="" style="width: 65px; border-radius: 50%;">
+                <div class="teacher-info ml-2" style="display: flex; flex-direction: column; justify-content: center;">
+                  <div class="teacher-name">Aaron Oquendo</div>
+                  <div class="location">New York</div>
+                </div>
+              </div>
+              <div class="grid-item-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <!-- Section Five below -->
-    <div class="section5">
-      
+    <div class="section5" style="background: #CEF0FF;">
+      <div class="container pb-5 pt-5">
+        <div class="section5-top pb-5" style="text-align: center;">
+          <div class="sub-title" style="color: #297FB8;">Are You Ready</div>
+          <div class="title" style="color: #0C1213; font-size: 25px; font-weight: bold;">To Spend Our Course</div>
+        </div>
+        <div class="row">
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item mb-4" style="background: #297FB8; display: flex; align-items: center; padding: 25px 20px; border-radius: 4px; color: #CEF0FF;">
+              <i class="fa fa-book" aria-hidden="true" style="font-weight: bold; font-size: 30px;"></i>
+              <div class="grid-item-right" style="margin-left: 10px; font-weight: bold;">
+                <div class="money">$50000</div>
+                <div class="grid-item-sub-text">Dept of CS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item mb-4" style="background: #297FB8; display: flex; align-items: center; padding: 25px 20px; border-radius: 4px; color: #CEF0FF;">
+              <i class="fa fa-book" aria-hidden="true" style="font-weight: bold; font-size: 30px;"></i>
+              <div class="grid-item-right" style="margin-left: 10px; font-weight: bold;">
+                <div class="money">$50000</div>
+                <div class="grid-item-sub-text">Dept of CS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item mb-4" style="background: #297FB8; display: flex; align-items: center; padding: 25px 20px; border-radius: 4px; color: #CEF0FF;" >
+              <i class="fa fa-book" aria-hidden="true" style="font-weight: bold; font-size: 30px;"></i>
+              <div class="grid-item-right" style="margin-left: 10px; font-weight: bold;">
+                <div class="money">$50000</div>
+                <div class="grid-item-sub-text">Dept of CS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="grid-item mb-4"  style="background: #297FB8; display: flex; align-items: center; padding: 25px 20px; border-radius: 4px; color: #CEF0FF;">
+              <i class="fa fa-book" aria-hidden="true" style="font-weight: bold; font-size: 30px;"></i>
+              <div class="grid-item-right" style="margin-left: 10px; font-weight: bold;">
+                <div class="money">$50000</div>
+                <div class="grid-item-sub-text">Dept of CS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Section Six below -->
     <div class="section6">
-      
+      <div class="container mb-5 mt-5">
+        <div class="row">
+          <div class="left-side col-sm-12 col-md-6 col-lg-6 col-xl-6 col-sm-push-12">
+            <h1 class="section-title">We Support Our Students for their Well</h1>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            </p>
+            <div class="contact-us-form">
+              <div class="row">
+                <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <input type="text" style="width:100%" class="mb-4" placeholder="Enter first name here" >
+                </div>
+                <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <input type="text" style="width:100%" class="mb-4" placeholder="Enter last name here">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <input type="text" style="width:100%" class="mb-4" placeholder="Enter email here">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <input type="text" style="width:100%" class="mb-4 " placeholder="Enter company">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <input type="text" style="width:100%" class="mb-4" placeholder="Enter message here">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <textarea type="text" style="width:100%" class="mb-4" placeholder="Enter message here" rows="4">
+                  </textarea>
+                </div>
+              </div>
+            </div>
+            <div class="button-wrapper" style="display: flex; justify-content: center;">
+              <div class="btn" style="background: #297FB8; color: white;">Send Now</div>
+            </div>
+
+          </div>
+          <div class="right-side col-sm-12 col-md-6 col-lg-6 col-xl-6 col-sm-pull-12" style="display: flex; justify-content: center;">
+            <img src="https://images.pexels.com/photos/2574616/pexels-photo-2574616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" style="width: 100%; max-width: 400px; height: 500px;">
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer is below -->
-    <div class="footer">
-      
+    <div class="footer" style="background: #297FB8; color:#CEF0FF;">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-links">
+              <div class="footer-links-header">
+                Quick Link
+              </div>
+              <div class="footer-link">
+                Home
+              </div>
+              <div class="footer-link">
+                About Us
+              </div>
+              <div class="footer-link">
+                Courses
+              </div>
+              <div class="footer-link">
+                Pricing
+              </div>
+              <div class="footer-link">
+                Blogs
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-links">
+              <div class="footer-links-header">
+                Contact Us
+              </div>
+              <div class="footer-link">
+                New York City
+              </div>
+              <div class="footer-link">
+                123 street road
+              </div>
+              <div class="footer-link">
+                www.learnpro.com
+              </div>
+              <div class="footer-link">
+                www.learnprologin.com
+              </div>
+              <div class="footer-link">
+                +7182948374
+              </div>
+              <div class="footer-link">
+                +7189847585
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="search-section" style="display:flex; justify-content: center; align-items: center; height: 100%;">
+              <input type="text" class="" style="width: 100%" placeholder="Search">
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
 
   </body>
+  
 </html>
