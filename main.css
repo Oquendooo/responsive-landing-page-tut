@@ -8,34 +8,22 @@
   --heroDisplayColor: #F5F7F6;
 }
 .container{
-  max-width: 1160px;
-  padding: 20px;
+
 }
 .header{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background: var(--header-color);
-  color: var(--lightblue);
-  height: 50px;
+
 }
 
 .header .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
 }
 
 .header .container  .logo{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .header .container .header-links{
-  display: flex;
-  flex-direction: row;
+
 }
 
 .header .container .header-links .header-link{
@@ -43,28 +31,20 @@
 }
 
 .header .container .fa{
- font-size: 20px;
- cursor: pointer;
+
 }
 
 
 /* Section One CSS is below */
 .section1{
-  display: flex;
-  flex-direction: row;
-  background: var(--heroDisplayColor);
-  min-height: 500px;
+
 }
 
 .section1 .container{
- 
+
 }
 .section1 .container .row{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-height: 500px;
+
 }
 
 .section1 .container .row .left-side{
@@ -75,8 +55,7 @@
 
 }
 .section1 .container .row .right-side img{
-  max-height: 325px;
-  width: 100%;
+
 }
 
 /* Section Two CSS is below */
@@ -94,21 +73,15 @@
 }
 
 .section2 .container .row1 .left-side{
-  display: flex;
-  justify-content: center;
+
 }
 
 .section2 .container .row1 .left-side img{
-  max-width:400px;
-  height: 500px;
-  width: 100%;
+
 }
 
 .section2 .container .row1 .right-side{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
+
 }
 
 .section2 .container .row1 .right-side .section-title{
@@ -120,8 +93,7 @@
 }
 
 .section2 .container .row1 .right-side .btn{
-  background: var(--header-color);
-  color: var(--lightblue)
+
 }
 
 .section2 .container .row2{
@@ -132,23 +104,19 @@
   
 }
 .section2 .container .row2 .grid-item{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: var(--grey);
+
 
 }
 
 .section2 .container .row2 .grid-item-alt{
-  background: var(--header-color);
+  
 }
 .section2 .container .row2 .grid-item-alt .grid-item-title{
-  color: var(--lightblue);
+  
 }
 
 .section2 .container .row2 .grid-item .fa{
-  font-size: 35px;
+  
 
 }
 
@@ -157,13 +125,13 @@
 }
 
 .section2 .container .row2 .grid-item .grid-item-text{
-  text-align: center;
+
 }
 
 /* Section Three CSS is below */
 
 .section3{
-  background: var(--header-color);
+  
 }
 
 .section3 .container{
@@ -171,49 +139,44 @@
 }
 
 .section3 .container .section3-top{
-  text-align: center;
-  color: var(--lightblue);
+
 }
 
 .section3 .container .section3-top .sub-title{
-  font-size: 14px;
+  
 }
 
 .section3 .container .section3-top .title{
-  font-size: 22px;
-  margin-bottom: 25px;
+  
 }
 
 .section3 .container .row{
-  margin: 0;
+  
 }
 
 .section3 .container .row .col{
-  margin-bottom: 10px;
+  
 }
 
 .section3 .container .row .col .grid-item{
-  background: white;
-  padding: 20px;
+  
 }
 
 .section3 .container .row .col .grid-item .icon{
-  font-size: 36px;
-  margin-bottom: 2px;
+  
 }
 
 .section3 .container .row .col .grid-item .grid-item-title{
-  font-size: 20px;
-  font-weight: bold;
+  
 }
 
 .section3 .container .row .col .grid-item .grid-item-text{
-  font-size: 14px;
+  
 }
 
 /* Section Four CSS is below */
 .section4{
-  background: var(--grey);
+  
 }
 
 .section4 .container{
@@ -221,17 +184,15 @@
 }
 
 .section4 .container .section4-top{
-  text-align: center;
+  
 }
 
 .section4 .container .section4-top .sub-title{
-  color: var(--header-color);
+  
 }
 
 .section4 .container .section4-top .title{
-  color: var(--blackish);
-  font-size: 25px;
-  font-weight: bold;
+  
 }
 
 .section4 .container .row{
@@ -243,30 +204,23 @@
 }
 
 .section4 .container .row .col .grid-item{
-  background: white;
-  border-radius: 4px;
+  
 }
 
 .section4 .container .row .col .grid-item.grid-item-alt{
-  border: 2px solid var(--lightblue);
-  -webkit-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
+  
 }
 
 
 .section4 .container .row .col .grid-item .grid-item-top{
-  display: flex;
+  
 }
 
 .section4 .container .row .col .grid-item .grid-item-top .teacher-icon{
-  width: 65px;
-  border-radius: 50%;
+  
 }
 .section4 .container .row .col .grid-item .grid-item-top .teacher-info{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
 
 }
 
@@ -281,7 +235,7 @@
 /* Section Five CSS is below */
 
 .section5{
-  background: var(--lightblue);
+
 }
 
 .section5 .container{
@@ -289,7 +243,7 @@
 }
 
 .section5 .container .section5-top{
-  text-align: center;
+  
 }
 
 .section5 .container .section5-top{
@@ -297,13 +251,11 @@
 }
 
 .section5 .container .section5-top .sub-title{
-  color: var(--header-color);
+  
 }
 
 .section5 .container .section5-top .title {
-  color: var(--blackish);
-  font-size: 25px;
-  font-weight: bold;
+  
 }
 
 .section5 .container .row{
@@ -315,21 +267,14 @@
 }
 
 .section5 .container .row .col .grid-item{
-  background: var(--header-color);
-  display: flex;
-  align-items: center;
-  padding: 25px 20px;
-  border-radius: 4px;
-  color: var(--lightblue);
+  
 }
 
 .section5 .container .row .col .grid-item .fa{
-  font-weight: bold;
-  font-size: 30px;
+  
 }
 .section5 .container .row .col .grid-item .grid-item-right{
-  margin-left: 10px;
-  font-weight: bold;
+  
 }
 .section5 .container .row .col .grid-item .grid-item-right .money{
 
@@ -348,26 +293,20 @@
 .section6 .container .row .left-side{}
 
 .section6 .container .row .left-side .button-wrapper{
-  display: flex;
-  justify-content: center;
+  
 }
 .section6 .container .row .left-side .btn{
-  background: var(--header-color);
-  color: white;
+  
 }
 .section6 .container .row .right-side{
-  display: flex;
-  justify-content: center;
+
 }
 
 
 .section6 .container .row .right-side img{
-  width: 100%;
-  max-width: 400px;
-  height: 500px;
+  
 }
 
 .footer{
-  background: var(--header-color);
-  color:var(--lightblue);
+  
 }
