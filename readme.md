@@ -17,6 +17,22 @@ Html Skeleton
 
     </html>
 
+Below are the colors we will be using for this design
+
+    mainColor: #297FB8;
+
+    grey: #F2F2F2;
+
+    lightBlue: #CEF0FF;
+
+    white: #FFF
+
+    blue: #297FB8;
+
+    blackish: #0C1213;
+    
+    heroDisplayColor: #F5F7F6;
+
 Below are the urls for the bootstrap and fontawesome external libraries. 
 Copy and paste these link into the head of your html document
 
