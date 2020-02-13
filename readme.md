@@ -19,15 +19,15 @@ Html Skeleton
 
 Below are the colors we will be using for this design
 
-    mainColor: #297FB8;
-
-    grey: #F2F2F2;
+    darkBlue: #297FB8;
 
     lightBlue: #CEF0FF;
 
-    white: #FFF
-
     blue: #297FB8;
+
+    grey: #F2F2F2;
+
+    white: #FFF
 
     blackish: #0C1213;
     
@@ -48,7 +48,7 @@ Fontawesome CDN
 Image Urls
 
     https://images.pexels.com/photos/3118214/pexels-photo-3118214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-    
+
     https://aaronoquendo.com/di-workshop/researching.svg
 
 
