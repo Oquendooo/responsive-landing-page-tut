@@ -56,3 +56,6 @@ Finshed Webpage Url
 
     aaronoquendo.com/di-workshop
     
+Powerpoint Slide
+
+    https://drive.google.com/file/d/1SSGjMWtgUsZoNAFZt8eb2-clWzfEXQAX/view?usp=sharing
