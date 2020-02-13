@@ -48,6 +48,8 @@ Fontawesome CDN
 Image Urls
 
     https://images.pexels.com/photos/3118214/pexels-photo-3118214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+    
+    https://aaronoquendo.com/di-workshop/researching.svg
 
 
 Finshed Webpage Url
