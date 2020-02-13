@@ -43,3 +43,13 @@ Bootstrap CDN
 Fontawesome CDN
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+Image Urls
+
+    https://images.pexels.com/photos/3118214/pexels-photo-3118214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+
+Finshed Webpage Url
+
+    aaronoquendo.com/di-workshop
